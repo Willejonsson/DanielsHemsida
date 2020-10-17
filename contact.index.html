@@ -17,8 +17,45 @@
                                 content="(Afro beat platform Music,Vibes,beats,Afro,Artist,Produce NiceBeats,)">
 </head>
 
-<body>
+<!--Rubrik-->
+<h1> Contact us </h1>
+<!--lös text-->
+<p> Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a
+                matter of hours to help you.
+</p>
 
-</body>
+
+<!--Namn&Email-->
+<form action="mail.php" method="post">
+                <div class="inputwrapper1">
+
+                                <input type="text" name="Name" placeholder="Name" id="Name">
+                                <input type="email" name="Email" placeholder="Email" id="Email">
+
+                </div>
+
+
+                <!--Skriva Meddelande-->
+                <div class="inputwrapper2">
+                                <textarea name="message" id="message" cols="30" rows="8"
+                                                placeholder="Let us know what you think"></textarea>
+
+                </div>
+
+                <!--FriText-->
+                <p>How would you liked to be Contacted</p>
+                <!--Hur Vill Du Bli kontaktad-->
+                <div class="inputwrapper3">
+                                <input type="radio" name="contact-pref" id="Phone" value="Phone">
+                                <label for="Email"></label>Email
+                                <input type="text" name="email" placeholder="">
+                                <input type="radio" name="contact-pref" id="email" value="Email"><label
+                                                for="email"></label>Phone
+                                <input type="Number" name="Phone" placeholder="">
+                                <input type="submit" value="Fire away">
+                </div>
+</form>
+
+<body></body>
 
 </html>

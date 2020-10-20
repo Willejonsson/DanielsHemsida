@@ -25,5 +25,11 @@
                                 "v",
                                 "välkomen"
                 ],
-                "liveServer.settings.port": 5501
+                "liveServer.settings.port": 5501,
+                "files.exclude": {
+                                "**/.classpath": true,
+                                "**/.project": true,
+                                "**/.settings": true,
+                                "**/.factorypath": true
+                }
 }

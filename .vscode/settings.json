@@ -1,12 +1,29 @@
 {
                 "cSpell.words": [
+                                "anv",
+                                "användarnamn",
                                 "area",
+                                "igen",
                                 "input",
+                                "l",
+                                "lkomen",
                                 "loggo",
+                                "lösen",
+                                "lösenord",
+                                "mittl",
+                                "mittlösen",
+                                "ndarnamn",
+                                "println",
                                 "samt",
+                                "sen",
+                                "senord",
+                                "skanner",
                                 "text",
                                 "text area",
-                                "textarea"
+                                "textarea",
+                                "tjomme",
+                                "v",
+                                "välkomen"
                 ],
                 "liveServer.settings.port": 5501
 }

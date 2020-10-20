@@ -1,0 +1,37 @@
+html{
+background-image: url(/img/soulium-back-2.jpg);
+}
+h1{
+                color: white ;
+                text-align: justify;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: larger;
+                text-align: center;
+}
+p{
+                color: antiquewhite;
+                text-align: justify;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: large;
+                text-align: center;
+
+}
+placeholder{
+                padding: 20px;
+}
+div{
+                text-align: center;
+                padding:20px,20px,10px,10px;
+}
+input {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: medium;
+                text-align: center;
+                color: black;
+}
+
+
+
+
+
+

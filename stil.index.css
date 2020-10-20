@@ -1,13 +1,16 @@
 html{
+               
                 background-image: url(/img/soulium-back-1.jpg);
-                background-size: cover;   
-                 
+                background-size: cover;
+
 }
 body{
-
-                background-image: url(/img/Soulium.final.png);
                 background-size: cover;
+                background-image: url(/img/Soulium.final.png);
+                background-size: auto;
+                padding-top: 15%;
                 background-position: center;
                 background-repeat:no-repeat;
-                           
+                font-size: 1.125rem;
+                
 }

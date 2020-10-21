@@ -1,53 +1,64 @@
 html {
-  height: 100%;
-  background-image: url(/img/soulium-back-2.jpg);
-  background-size: cover;
+    height: 100%;
+    background-image: url(/img/soulium-back-2.jpg);
+    background-size: cover;
 }
+
+
+/*tablet-wiew */
+
+@media (max-width: 768px) {}
+
+
+/*mobil-wiew */
+
+@media (max-width: 380px) {}
+
 body {
-  background-size: cover;
-  background-image: url(/img/Soulium.final.png);
-  background-size: auto;
-  padding-top: 15%;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-size: 1.125rem;
+    background-size: cover;
+    background-image: url(/img/Soulium.final.png);
+    background-size: auto;
+    padding-top: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 1.125rem;
 }
+
 .box1 {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: justify;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
 }
+
 .box2 {
-  padding-bottom: 10%;
-  text-align: justify;
+    padding-bottom: 10%;
+    text-align: justify;
 }
+
 textarea {
-  background-color: rgba(0, 0, 0, 0.121);
-  color: white;
+    background-color: rgba(0, 0, 0, 0.121);
+    color: white;
 }
+
 input {
-  background-color: rgba(0, 0, 0, 0.121);
-  color: white;
+    background-color: rgba(0, 0, 0, 0.121);
+    color: white;
 }
 
 .box3 {
-  padding-bottom: 15px;
-  text-align: justify;
-  color: white;
-}
-h1 {
-  color: white;
-}
-p {
-  color: white;
-}
-a {
-  color: beige;
-}
-/*tablet-wiew */
-@media (max-width: 768px) {
+    padding-bottom: 15px;
+    text-align: justify;
+    color: white;
 }
 
-/*mobil-wiew */
-@media (max-width: 380px) {
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: beige;
 }

@@ -16,3 +16,13 @@ body {
 a {
     color: beige;
 }
+
+
+/* Tablet-wiew */
+
+@media (max-width: 768px) {}
+
+
+/* Mobile-wiew */
+
+@media (max-width: 380px) {}

@@ -49,6 +49,9 @@ h1 {
 p{
                 color: white;
 }
+a{
+                color: beige;
+}
 /*tablet-wiew */
 @media(max-width:768px){
 

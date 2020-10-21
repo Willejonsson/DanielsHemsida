@@ -11,6 +11,8 @@ body{
                 background-size: auto;
                 background-position: right;
                 background-repeat:no-repeat;
-                font-size: 1.125rem;
-                
+                font-size: 1.125rem;             
+}
+a{
+                color: beige;
 }

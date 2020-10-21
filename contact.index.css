@@ -53,11 +53,11 @@ a{
                 color: beige;
 }
 /*tablet-wiew */
-@media(max-width:768px){
+@media (max-width:768px){
 
 }
 
 /*mobil-wiew */
-@media(max-width:400px){
+@media (max-width:380px){
 
 }

@@ -4,16 +4,6 @@ html {
     background-size: cover;
 }
 
-
-/*tablet-wiew */
-
-@media (max-width: 768px) {}
-
-
-/*mobil-wiew */
-
-@media (max-width: 380px) {}
-
 body {
     background-size: cover;
     background-image: url(/img/Soulium.final.png);
@@ -22,6 +12,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     font-size: 1.125rem;
+}
+
+a {
+    color: beige;
 }
 
 .box1 {
@@ -57,8 +51,4 @@ h1 {
 
 p {
     color: white;
-}
-
-a {
-    color: beige;
 }

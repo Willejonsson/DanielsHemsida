@@ -1,22 +1,18 @@
 html {
-  background-image: url(/img/soulium-back-1.jpg);
-  background-size: cover;
+    background-image: url(/img/soulium-back-1.jpg);
+    background-size: cover;
 }
+
 body {
-  background-size: cover;
-  background-image: url(/img/Soulium.final.png);
-  padding-top: 40%;
-  background-size: auto;
-  background-position: right;
-  background-repeat: no-repeat;
-  font-size: 1.125rem;
+    background-size: cover;
+    background-image: url(/img/Soulium.final.png);
+    padding-top: 40%;
+    background-size: auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    font-size: 1.125rem;
 }
+
 a {
-  color: beige;
-}
-/*tablet-wiew */
-@media (max-width: 768px) {
-}
-/*mobil-wiew */
-@media (max-width: 360px) {
+    color: beige;
 }

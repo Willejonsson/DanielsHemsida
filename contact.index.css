@@ -59,7 +59,7 @@ p {
 
 /* Tablet-wiew */
 
-@media (max-width: 768px) {
+@media (max-width:700px) {
     body {
         background-image: url(/img/Soulium.final.png);
         background-size: auto;

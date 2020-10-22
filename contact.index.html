@@ -32,16 +32,15 @@
     <form method="POST" action="mail.php">
 
         <div class="box1">
-
-            <input type="text" name="Name" placeholder="Name" id="Name">
-            <input type="text" placeholder="Subject">
+            <input type="text" placeholder="Name" name="Name">
+            <input type="text" placeholder="Subject" name="Subject">
 
         </div>
 
 
         <!--Skriva Meddelande-->
         <div class="box2">
-            <textarea name="message" id="message" cols="20" rows="8" placeholder="Let us know what you think"></textarea>
+            <textarea name="message" id="message" cols="20" rows="8"><textarea>
             <input type="submit" value="Send it" />
         </div>
 
@@ -52,10 +51,10 @@
             <input type="radio" name="contact-pref" id="Phone" value="Phone">
             <label for="Email"></label>Email
 
-            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="email">
             <input type="radio" name="email" id="email" value="Email">
             <label for="email"></label>Phone
-            <input type="Number" name="Phone" placeholder="enter your number">
+            <input type="Number" name="Phone">
             <input type="submit" value="Send it">
 
         </div>

@@ -2,76 +2,71 @@
 <html lang="en">
 
 <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <!--My StyleSheet-->
-                <link rel="stylesheet" href="contact.index.css">
-                <!-- This is Eric Meyers CSS reset -->
-                <link rel="stylesheet" href="css-reset.css">
-                <!--Tittel på Contaktsidan-->
-                <title>Contact Soulium Entertainment</title>
-                <!--inställningsbar kontext-->
-                <meta http-equiv="X-UA-Compatible" content="ie=edge">
-                <!--Beskrivning kring contaktsida-->
-                <meta name="Contact Soulium"
-                                content="(Afro beat platform Music,Vibes,beats,Afro,Artist,Produce NiceBeats,)">
-                <!--Här under kan ni sätta in en logga i svg format-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--My StyleSheet-->
+    <link rel="stylesheet" href="contact.index.css">
+    <!-- This is Eric Meyers CSS reset -->
+    <link rel="stylesheet" href="css-reset.css">
+    <!--Tittel på Contaktsidan-->
+    <title>Contact Soulium Entertainment</title>
+    <!--inställningsbar kontext-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Beskrivning kring contaktsida-->
+    <meta name="Contact Soulium" content="(Afro beat platform Music,Vibes,beats,Afro,Artist,Produce NiceBeats,)">
+    <!--Här under kan ni sätta in en logga i svg format-->
 
 
 
 </head>
 <div class="box">
 
-                <!--Rubrik-->
-                <h1> Contact us!! </h1>
-                <!--lös text-->
-                <p> Do you have any questions?.
-                </p>
+    <!--Rubrik-->
+    <h1> Contact us!! </h1>
+    <!--lös text-->
+    <p> Do you have any questions?.
+    </p>
 
 
-                <!--Namn&Email-->
-                <form action="mail.php" method="post">
+    <!--Namn&Email-->
+    <form action="mail.php" method="post">
 
-                                <div class="box1">
+        <div class="box1">
 
-                                                <input type="text" name="Name" placeholder="Name" id="Name">
-                                                <input type="email" name="Email" placeholder="Email" id="Email">
+            <input type="text" name="Name" placeholder="Name" id="Name">
+            <input type="email" name="Email" placeholder="Email" id="Email">
 
-                                </div>
+        </div>
 
 
-                                <!--Skriva Meddelande-->
-                                <div class="box2">
+        <!--Skriva Meddelande-->
+        <div class="box2">
+            <textarea name="message" id="message" cols="30" rows="8" placeholder="Let us know what you think"></textarea>
+            <input type="submit" value="Send it"></div>
 
-                                                <textarea name="message" id="message" cols="30" rows="8"
-                                                                placeholder="Let us know what you think">
-                                </textarea>
+        <!--FriText-->
+        <p>How would you liked to be Contacted</p>
+        <!--Hur Vill Du Bli kontaktad-->
+        <div class="box3">
+            <input type="radio" name="contact-pref" id="Phone" value="Phone">
+            <label for="Email"></label>Email
 
-                                </div>
+            <input type="text" name="email" placeholder="">
+            <input type="radio" name="contact-pref" id="email" value="Email"><label for="email"></label>Phone
+            <input type="Number" name="Phone" placeholder="">
+            <input type="submit" value="Send it">
 
-                                <!--FriText-->
-                                <p>How would you liked to be Contacted</p>
-                                <!--Hur Vill Du Bli kontaktad-->
-                                <div class="box3">
-                                                <input type="radio" name="contact-pref" id="Phone" value="Phone">
-                                                <label for="Email"></label>Email
-                                                <input type="text" name="email" placeholder="">
-                                                <input type="radio" name="contact-pref" id="email" value="Email"><label
-                                                                for="email"></label>Phone
-                                                <input type="Number" name="Phone" placeholder="">
-                                                <input type="submit" value="Fire away">
-
-                                </div>
-                </form>
+        </div>
+    </form>
 </div>
 
 <body>
 
-                <a href="index.html" target="_blank">Click to get back</a>
+    <a href="index.html" target="_blank">Click to get back</a>
 
 </body>
 <footer>
-                <!--adress och vad ni vill representera står på alla hemsidor längst ner-->
+    <!--adress och vad ni vill representera står på alla hemsidor längst ner-->
 </footer>
 
 </html>

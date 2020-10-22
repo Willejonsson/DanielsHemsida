@@ -63,10 +63,10 @@ p {
     body {
         background-image: url(/img/Soulium.final.png);
         background-size: auto;
-        padding-top: 15%;
+        padding-top: 50%;
+        padding-bottom: 50%;
         background-position: right;
         background-repeat: no-repeat;
-        font-size: 1.125rem;
     }
     h1 {
         display: none;

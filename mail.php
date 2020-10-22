@@ -9,6 +9,6 @@ $email = $_POST['email'];
 $content="From: $name";
 $recipient = "willejonsson80@gmail.com";
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $content, $mailheader) or die("Error!");
+mail($recipient, $subject, print $content, print $mailheader) or die("Error!");
 echo "Email sent!";
 ?>

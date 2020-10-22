@@ -20,7 +20,7 @@ a {
 
 /* Tablet-wiew */
 
-@media (max-width:700px) {
+@media (max-width:699px) {
     body {
         background-image: url(/img/Soulium.final.png);
         padding-top: 50%;

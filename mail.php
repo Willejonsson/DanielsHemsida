@@ -11,5 +11,5 @@ $content = $_POST["content"];
 $recipient = "willejonsson80@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");
-echo "Email sent/Take care!";
+echo "Email sent";
 ?>

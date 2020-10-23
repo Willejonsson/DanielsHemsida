@@ -5,7 +5,7 @@ if(isset( $_POST['email']))
 $email = $_POST['email'];
 
 
-$content="Hello from PHP email script!:";
+$content="From: mail.php";
 $recipient = "willejonsson80@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $content, $mailheader) or die("Error!");

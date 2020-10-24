@@ -37,7 +37,7 @@ a {
 
 /* Mobile-wiew */
 
-@media (max-width:400px) {
+@media (max-width:380px) {
     body {
         background-image: url(/img/Soulium.final.png);
         padding-top: 50%;

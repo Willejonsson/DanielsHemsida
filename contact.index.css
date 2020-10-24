@@ -78,21 +78,14 @@ p {
         padding-top: 85%;
         text-align: left;
     }
-}
-
-.box3 {
-    text-align: left;
-    color: white;
-}
-
-textarea {
-    background-color: white;
-    color: black;
-}
-
-input {
-    background-color: whitesmoke;
-    color: black;
+    textarea {
+        background-color: white;
+        color: black;
+    }
+    input {
+        background-color: whitesmoke;
+        color: black;
+    }
 }
 
 

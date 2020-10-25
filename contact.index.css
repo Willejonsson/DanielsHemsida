@@ -11,8 +11,8 @@ body {
     background-size: cover;
     background-image: url(/img/Soulium.final.png);
     background-size: auto;
-    padding-top: 50%;
-    padding-bottom: 50%;
+    padding: top 25%;
+    padding-bottom: 25%;
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -1,4 +1,6 @@
 html {
+    height: 100%;
+    max-width: 100%;
     background-image: url(/img/soulium-back-1.jpg);
     background-size: cover;
 }

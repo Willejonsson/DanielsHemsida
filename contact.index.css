@@ -17,6 +17,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.box {
+    padding-top: 30rem;
+    text-align: left;
+}
+
 a {
     color: beige;
 }
@@ -43,7 +48,8 @@ p {
     p {
         display: none;
     }
-    .box1 {
+    .box {
+        padding-bottom: 30rem;
         text-align: left;
     }
 }
@@ -57,10 +63,8 @@ p {
         background-size: auto;
         background-position: right;
         background-repeat: no-repeat;
-        font-size: 1.125rem;
     }
-    .box1 {
-        padding-top: 50%;
-        text-align: center;
+    .box {
+        text-align: none;
     }
 }

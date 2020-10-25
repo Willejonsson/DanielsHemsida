@@ -10,11 +10,11 @@ body {
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
-    font-size: 1.125rem;
 }
 
 a {
-    color: beige;
+    padding-top: 30rem;
+    color: white;
 }
 
 

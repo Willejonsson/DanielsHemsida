@@ -24,15 +24,21 @@ a {
 
 @media (max-width:680px) {
     body {
+        background-size: cover;
         background-image: url(/img/Soulium.final.png);
-        padding-top: 50%;
-        padding-bottom: 50%;
         background-size: auto;
-        background-position: center;
+        background-position: right;
         background-repeat: no-repeat;
     }
+    .box {
+        padding-top: 30rem;
+        text-align: left;
+    }
     a {
-        color: beige;
+        color: white;
+    }
+    p {
+        display: none;
     }
 }
 

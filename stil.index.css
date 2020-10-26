@@ -22,7 +22,7 @@ a {
 
 /* Tablet-wiew */
 
-@media (max-width:699px) {
+@media (max-width:680px) {
     body {
         background-image: url(/img/Soulium.final.png);
         padding-top: 50%;
@@ -39,7 +39,7 @@ a {
 
 /* Mobile-wiew */
 
-@media (max-width:380px) {
+@media (max-width:340px) {
     body {
         background-image: url(/img/Soulium.final.png);
         padding-top: 50%;

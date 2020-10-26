@@ -35,7 +35,7 @@ p {
     body {
         background-size: cover;
         background-image: url(/img/Soulium.final.png);
-        background-size: auto;
+        background-size: cover;
         background-position: right;
         background-repeat: no-repeat;
     }

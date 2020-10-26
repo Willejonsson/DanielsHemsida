@@ -1,3 +1,5 @@
+/* Global wiew = desktop wiew */
+
 html {
     height: 100%;
     max-width: 100%;
@@ -13,9 +15,16 @@ body {
     background-repeat: no-repeat;
 }
 
-a {
+.box {
     padding-top: 30rem;
     text-align: left;
+}
+
+a {
+    color: beige;
+}
+
+p {
     color: white;
 }
 
@@ -37,19 +46,22 @@ a {
     a {
         color: white;
     }
+    p {
+        display: none;
+    }
 }
 
 
 /* Mobile-wiew */
 
-@media (max-width:340px) {
+@media (max-width: 340px) {
     body {
-        background-image: url(/img/Soulium.final.png);
+        background-image: url(/img/soulium-back-1.jpg);
         background-size: auto;
         background-position: center;
         background-repeat: no-repeat;
     }
-    a {
-        color: beige;
+    .box {
+        text-align: center;
     }
 }

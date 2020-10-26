@@ -8,7 +8,6 @@ html {
 body {
     background-size: cover;
     background-image: url(/img/Soulium.final.png);
-    padding-top: 40%;
     background-size: auto;
     background-position: right;
     background-repeat: no-repeat;
@@ -16,6 +15,7 @@ body {
 
 a {
     padding-top: 30rem;
+    text-align: left;
     color: white;
 }
 
@@ -37,9 +37,6 @@ a {
     a {
         color: white;
     }
-    p {
-        display: none;
-    }
 }
 
 
@@ -48,8 +45,6 @@ a {
 @media (max-width:340px) {
     body {
         background-image: url(/img/Soulium.final.png);
-        padding-top: 50%;
-        padding-bottom: 50%;
         background-size: auto;
         background-position: center;
         background-repeat: no-repeat;

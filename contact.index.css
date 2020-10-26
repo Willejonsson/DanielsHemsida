@@ -53,7 +53,7 @@ p {
 
 /* Mobile-wiew */
 
-@media (max-width: 380px) {
+@media (max-width: 340px) {
     body {
         background-image: url(/img/soulium-back-1.jpg);
         background-size: auto;

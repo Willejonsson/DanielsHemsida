@@ -15,13 +15,24 @@
     <meta name="Soulium Entertainment" content="(Afro beat platform Music
                 Vibes,beats,Afro,Artist,Produce NiceBeats,)">
 </head>
-<form>
-    <mail.php>
-        <input type="email" name="email" id="email">
-        <input type="number" name="number" id="number">
-        <input type="submit" value="Send it">
-    </mail.php>
+<form action="mail.php" method="Post">
+    <div>
+        <label for="name">First Name</label>
+        <input type="text" name="name" id="name" placeholder="First Name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter mail">
+    </div>
+    <div class="wrapper">
+        <textarea name="message" id="message" cols="100" rows="5" placeholder="message"></textarea>
+    </div>
+    <input type="submit" value="Send it ">
 </form>
+
+
+
+
+
+
 
 <body>
     <!--här under ska man skapa sin profil och användarnamn samt lösen för att kunna komma -->

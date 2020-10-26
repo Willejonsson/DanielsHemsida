@@ -5,6 +5,7 @@ if(isset( $_POST['email']))
 $email = $_POST['email'];
 if(isset($_POST['Subject']))
 $subject = $_POST['Subject'];
+$message=$_POST['message'];
 
 
 
